@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/distrail-io/k8s-app-incubbator.git
+    repoURL: https://github.com/distrail-io/k8s-app-incubator.git
     targetRevision: HEAD
     path: argocd
   destination:
