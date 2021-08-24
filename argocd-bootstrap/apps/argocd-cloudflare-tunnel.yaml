@@ -13,12 +13,11 @@ spec:
     path: helm-charts/cloudflare/argo-tunnel
     helm:
       values: |
-        cloudflared:
-          hostname: argocd.distrail.io
-          url: https://argocd-server
-          tlsVerify: false
-          externalSecret:
-            gcpSecretName: cloudflared-origin-cert
+        hostname: argocd.distrail.io
+        url: https://argocd-server
+        tlsVerify: false
+        externalSecret:
+          gcpSecretName: cloudflared-origin-cert
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd

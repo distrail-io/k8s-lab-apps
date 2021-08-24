@@ -13,7 +13,6 @@ image:
 cloudflared:
   hostname: ""
   url: ""
-  sealedSecretCert: ""
   tlsVerify: true
 
 imagePullSecrets: []

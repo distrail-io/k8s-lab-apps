@@ -36,9 +36,9 @@ spec:
           args:
             - tunnel
             - --no-autoupdate
-            - --hostname={{ .Values.cloudflared.hostname }}
-            - --url={{ .Values.cloudflared.url }}
-            {{- if not .Values.cloudflared.tlsVerify }}
+            - --hostname={{ .Values.hostname }}
+            - --url={{ .Values.url }}
+            {{- if not .Values.tlsVerify }}
             - --no-tls-verify
             {{- end }}
           ports:
