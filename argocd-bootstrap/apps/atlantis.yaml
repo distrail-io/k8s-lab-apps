@@ -18,6 +18,10 @@ spec:
         orgWhitelist: github.com/distrail-io
         ingress:
           enabled: false
+        github:
+          user: temp
+          token: temp
+
   destination:
     server: https://kubernetes.default.svc
     namespace: default
