@@ -15,7 +15,7 @@ spec:
     helm:
       values: |
         atlantisUrl: https://atlantis.distrail.io
-        orgWhitelist: github.com/distrail-io
+        orgWhitelist: github.com/distrail-io/*
         ingress:
           enabled: false
         github:
